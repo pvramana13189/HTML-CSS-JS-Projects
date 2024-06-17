@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/calculations.js" defer></script>
+  </head>
+
+  <body class="body">
+    <div class="box">
+      <h1>Tip Calculator</h1>
+      <p>Enter the bill amount and tip percentage to calculate the total</p>
+      <div class="billamount">
+        <label for="billamount">Bill Amount:</label>
+        <input type="number" onchange="enableButton()" id="billamount" name="billamount">  
+      </div>
+      <div class="percentage">
+        <label for="tippercent">Tip Percentage:</label>
+        <input type="number" onchange="enableButton()" id="tippercent" name="tippercent"> 
+      </div>
+      <div class="calculate">
+        <button id="calculatebutton" onclick="tipcalculate()">CALCULATE</button>
+      </div>
+      <p id="totalamt">Total: </p>
+    </div>
+  </body>
+</html>

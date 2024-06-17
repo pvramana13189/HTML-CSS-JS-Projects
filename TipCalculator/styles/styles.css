@@ -1,0 +1,45 @@
+.body {
+    background-color: rgb(232, 232, 232);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(61, 193, 61);
+    color: white;
+    width: 100%;
+    padding: 1.7%;
+    border: 1px;
+}
+
+.box{
+    background-color: #ffffff;
+    text-align: left;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgb(216, 216, 216) ;
+    min-width: 600px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.billamount,
+.percentage {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-color: rgb(194, 193, 193);
+}
+
+input {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+}
